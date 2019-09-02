@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@color/color6"
+    tools:context=".WelcomeActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="30dp"
+        android:text="welcome"
+        android:textAllCaps="true"
+        android:textColor="@color/color1"
+        android:textSize="40sp"
+        android:textStyle="bold"
+        app:fontFamily="@font/coiny" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="30dp"
+        android:text="to"
+        android:textAllCaps="true"
+        android:textColor="@color/color1"
+        android:textSize="40sp"
+        android:textStyle="bold"
+        app:fontFamily="@font/coiny" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="engaz"
+        android:textAllCaps="true"
+        android:textColor="@color/color1"
+        android:textSize="40sp"
+        android:textStyle="bold"
+        app:fontFamily="@font/coiny" />
+
+</LinearLayout>
